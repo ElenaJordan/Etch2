@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    background-color: #0c2a4a;
+    height: 100%;
+    width: 100%;
+}
+
+.centreContainer {
+    background-color: #193e66;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sketchpadContainer {
+    height: 900px;
+    width: 75%;
+    background-color: #8797a8;
+    display: flex;
+}
+
+.sketchpadColumn {
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.sketchpadCell {
+    flex-grow: 1;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: aquamarine;
+    flex-wrap: wrap;
+}
