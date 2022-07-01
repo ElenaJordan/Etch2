@@ -9,9 +9,38 @@ html, body {
     background-color: #0c2a4a;
     height: 100%;
     width: 100%;
+    display: flex;
+}
+
+h1 {
+    padding-bottom: 50px;
+    color: aliceblue;
+}
+
+p  {
+    color: aliceblue;
+    padding-bottom: 50px;
+}
+
+input {
+    width: 150px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.leftContainer {
+    max-width: 180px;
+    align-items: baseline;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
 }
 
 .centreContainer {
+    flex-grow: 3;
     background-color: #193e66;
     max-width: 1200px;
     margin: 0 auto;
@@ -22,7 +51,7 @@ html, body {
     justify-content: center;
 }
 
-.sketchpadContainer {
+.sketchPadContainer {
     height: 900px;
     width: 75%;
     background-color: #8797a8;
@@ -30,6 +59,7 @@ html, body {
 }
 
 .sketchpadColumn {
+    display: flex;
     flex-direction: column;
     flex-grow: 1;
 }
@@ -40,4 +70,12 @@ html, body {
     border-radius: 5px;
     border-color: aquamarine;
     flex-wrap: wrap;
+}
+
+.sketchpadCell:hover {
+    background-color: black;
+}
+
+.active {
+    background-color: black;
 }
