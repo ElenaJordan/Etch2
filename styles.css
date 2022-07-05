@@ -76,6 +76,6 @@ button {
     background-color: black;
 }
 
-.active {
-    background-color: black;
+.buttonHolder {
+    display: flex;
 }

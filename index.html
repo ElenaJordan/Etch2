@@ -12,7 +12,11 @@
         <h1>This is a sketchpad</h1>
         <p>type a number between 2 and 16 into the box and hit the button to generate a sketchpad with that many cells squared</p>
         <input id="gridSizeInput" type="number" step="1" min="2" max="16" placeholder="2">
-        <button id="makeThingGoButton">Make Sketchpad</button>
+        <div class="buttonHolder">
+            <button id="makeThingGoButton">Make Sketchpad</button>
+            <button id="styleSwitcherButton">Switch Styles</button>
+        </div>
+        
     </div>
     <div class="centreContainer">
         <div class="sketchPadContainer" id="sketchPadContainer">
